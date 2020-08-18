@@ -117,14 +117,21 @@ extension HomeCollectionViewController:UICollectionViewDelegate,UICollectionView
 extension HomeCollectionViewController{
     @objc func filterFirstViewPressed(){
         print("First View Paressed")
+        self.alertShow(textMessage: "first View")
     }
     @objc func filterSecondViewPressed(){
          print("Second View Paressed")
+         self.alertShow(textMessage: "second View")
     }
     @objc func filterThirdViewPressed(){
          print("Third View Paressed")
+         self.alertShow(textMessage: "third View")
     }
     @objc func filterFourthViewPressed(){
          print("Fourth View Paressed")
+         self.alertShow(textMessage: "fourth View")
+    }
+    func alertShow(textMessage:String){
+         AlertController.sharedAlert.setAlert(alertTitle: "Pressed", alertMSG: textMessage, alertController: self)
     }
 }

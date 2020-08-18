@@ -17,6 +17,7 @@
 		727B0B3C24EA81C100308690 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B0B3A24EA81C100308690 /* CollectionViewCell.swift */; };
 		727B0B3D24EA81C100308690 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727B0B3B24EA81C100308690 /* CollectionViewCell.xib */; };
 		727BE1CD24EBEA8100D09386 /* FeaturedAdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727BE1CC24EBEA8100D09386 /* FeaturedAdsViewController.swift */; };
+		727BE1D024EC0DCB00D09386 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727BE1CF24EC0DCB00D09386 /* AlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		727B0B3A24EA81C100308690 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		727B0B3B24EA81C100308690 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		727BE1CC24EBEA8100D09386 /* FeaturedAdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedAdsViewController.swift; sourceTree = "<group>"; };
+		727BE1CF24EC0DCB00D09386 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		727B0B2224EA6A1700308690 /* CollectionViewWithHeader */ = {
 			isa = PBXGroup;
 			children = (
+				727BE1CE24EC0DAB00D09386 /* Utils */,
 				727BE1CB24EBEA5900D09386 /* Controllers */,
 				727B0B3924EA81A300308690 /* cell */,
 				727B0B2324EA6A1700308690 /* AppDelegate.swift */,
@@ -93,6 +96,14 @@
 				727BE1CC24EBEA8100D09386 /* FeaturedAdsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		727BE1CE24EC0DAB00D09386 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				727BE1CF24EC0DCB00D09386 /* AlertController.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 				727BE1CD24EBEA8100D09386 /* FeaturedAdsViewController.swift in Sources */,
 				727B0B3824EA6D5200308690 /* HomeHeaderCollectionReusableView.swift in Sources */,
 				727B0B2824EA6A1700308690 /* HomeCollectionViewController.swift in Sources */,
+				727BE1D024EC0DCB00D09386 /* AlertController.swift in Sources */,
 				727B0B2424EA6A1700308690 /* AppDelegate.swift in Sources */,
 				727B0B2624EA6A1700308690 /* SceneDelegate.swift in Sources */,
 			);
