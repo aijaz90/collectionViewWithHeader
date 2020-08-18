@@ -9,10 +9,14 @@
 import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
-
+    @IBOutlet weak var titleImage: UIImageView!
+    @IBOutlet weak var titleName: UILabel!
+    @IBOutlet weak var mainView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.mainView.layer.cornerRadius = 20
     }
 
 }
